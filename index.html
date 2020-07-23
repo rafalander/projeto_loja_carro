@@ -2,18 +2,19 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <title>Valdevite Vende - Home</title>
 </head>
 <body>
-
+    <!-- Barra de navegação-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Carcenter</a>
+      <a href="index.html"><img src="images/logo.png" width="60"></a>  
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div style="font-family:'Galada', cursive; font-size: 20px" class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="catalogo.html">Catálogo</a>
@@ -21,21 +22,23 @@
         </div>
       </div>
 
-      
+      <!--Botão de login-->       
       <div class="btn-group dropleft">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">➲Login</button>
         <div style="padding: 10px" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <p style="text-align: center;"><b>Faça login</b></p>
             <label style="margin: 0 0 10px" for="usuario">Usuário:</label>
-            <input type="text" required maxlength="30">
+            <input name="usuario" type="text" required maxlength="30">
             <label style="margin: 10px 0 10px" for="senha">Senha:</label>
-            <input type="password" required maxlength="30">
+            <input name="senha" type="password" required maxlength="30">
             <button style="margin-top: 10px" type="submit" class="btn btn-dark">Entrar</button>
 
         </div>
         </div>
+
     </nav>
 
+    <!-- Slide de imagens-->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -60,7 +63,7 @@
 
 
 
-    <footer style="padding: 0;margin: 0;text-align: center; background: silver; font-family: arial; font-size: 15px">
+    <footer style="padding: 0; margin: 0 auto;text-align: center; background: gray; font-family: arial; font-size: 15px">
         <p>2020 Todos direitos reservados Carcenter &#169</p>
         <p>Desenvolvido por Rafael Lander</p>
     </footer>
