@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Valdevite Vende - Home</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
-      <div style="font-family:'Galada', cursive; font-size: 20px" class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse estiloNavBar" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="catalogo.html">Catálogo</a>
@@ -24,15 +25,14 @@
 
       <!--Botão de login-->       
       <div class="btn-group dropleft">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">➲Login</button>
-        <div style="padding: 10px" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <p style="text-align: center;"><b>Faça login</b></p>
-            <label style="margin: 0 0 10px" for="usuario">Usuário:</label>
-            <input name="usuario" type="text" required maxlength="30">
-            <label style="margin: 10px 0 10px" for="senha">Senha:</label>
-            <input name="senha" type="password" required maxlength="30">
-            <button style="margin-top: 10px" type="submit" class="btn btn-dark">Entrar</button>
-
+        <button class="btn btn-secondary dropdown-toggle botaoLogin" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">➲Login</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" class="botao_login">
+                <p>Faça login</p>
+                <label for="usuario">Usuário:</label>
+                <input name="usuario" type="text" required maxlength="30">
+                <label for="senha">Senha:</label>
+                <input name="senha" type="password" required maxlength="30">
+                <button type="submit" class="btn btn-dark">Entrar</button> 
         </div>
         </div>
 
@@ -61,9 +61,18 @@
       </a>
     </div>
 
+    <div class="card text-white bg-secondary mb-3 textoInstitucional" style="max-width: 18rem">
+      <div class="card-header">Cabeçalho</div>
+      <div class="card-body">
+        <h5 class="card-title">Somos a maior da região</h5>
+        <p class="card-text">Somos a maior loja de venda e revenda de carros da região.<br>
+            Temos 0KM, e seminovos a pronta entrega, entre na aba <a href="contato.html">contato</a> e faça uma consulta no nosso <a href="catalogo.html">catálogo</a> para ver nossas opções.
+       </p>
+       </div>     
+    </div>
 
 
-    <footer style="padding: 0; margin: 0 auto;text-align: center; background: gray; font-family: arial; font-size: 15px">
+    <footer>
         <p>2020 Todos direitos reservados Carcenter &#169</p>
         <p>Desenvolvido por Rafael Lander</p>
     </footer>
