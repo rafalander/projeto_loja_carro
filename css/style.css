@@ -4,7 +4,7 @@
 	font-size: 20px
 }
 
-/*botão login*/
+/*botão login Global*/
 .botaoLogin {
 	text-align: center;
 	font-family: arial;
@@ -12,6 +12,14 @@
 }
 
 /*Estilo do texto institucional*/
+#tituloInstitucional{
+	font-family:'Galada', cursive; 
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0.1em 0.2em #333;
+}
+
 .textoInstitucional{
 	padding: 20px;
 	text-align: left;
@@ -19,12 +27,15 @@
 	margin: 20px;
 }
 
+
 .textoInstitucional a{
-	text-decoration-color: none black;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 
 
-/*Estilo do footer*/
+/*Estilo do footer Global*/
 footer {
 	padding: 20px;
 	text-align: center; 

@@ -1,0 +1,22 @@
+/*Estilo NavBar Global*/
+.estiloNavBar{
+	font-family:'Galada', cursive; 
+	font-size: 20px
+}
+
+/*botão login Global*/
+.botaoLogin {
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+
+
+/*Estilo do footer Global*/
+footer {
+	padding: 20px;
+	text-align: center; 
+	background: silver;opacity: 100%;
+	font-family: arial; 
+	font-size: 15px
+}
