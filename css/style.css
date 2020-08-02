@@ -20,20 +20,20 @@
 	text-shadow: 0.1em 0.2em #333;
 }
 
-.textoInstitucional{
+.cardInstitucional{
 	padding: 20px;
 	text-align: left;
 	font-family: arial;
 	margin: 20px;
+	max-width: 20rem;
 }
 
 
-.textoInstitucional a{
+.cardInstitucional a{
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 }
-
 
 /*Estilo do footer Global*/
 footer {
