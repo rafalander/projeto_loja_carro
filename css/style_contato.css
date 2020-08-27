@@ -16,7 +16,7 @@
 footer {
 	padding: 20px;
 	text-align: center; 
-	background: silver;opacity: 100%;
+	background-image: linear-gradient(to top , white, silver, gray);
 	font-family: arial; 
-	font-size: 15px
+	font-size: 14px
 }
